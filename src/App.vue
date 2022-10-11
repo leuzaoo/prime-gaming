@@ -37,6 +37,14 @@
       />
     </div>
   </div>
+
+  <div class="bg-[#0B0418]">
+    <ul class="flex text-xs justify-center gap-6 pt-3 text-white">
+      <li>Todos</li>
+      <li>Conteúdo no jogo</li>
+      <li>Jogos</li>
+    </ul>
+  </div>
 </template>
 
 <script lang="ts" setup>
