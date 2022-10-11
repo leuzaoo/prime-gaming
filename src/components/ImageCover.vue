@@ -1,8 +1,8 @@
 <template>
-  <div class="relative max-h-52 overflow-hidden">
+  <div class="relative max-h-40 overflow-hidden">
     <img class="object-cover w-full h-full" :src="src" :alt="alt" />
     <div
-      class="absolute top-0 left-0 bottom-0 right-0 bg-gradient-to-b from-transparent to-black opacity-60"
+      class="absolute top-0 left-0 bottom-0 right-0 bg-gradient-to-b from-transparent to-black opacity-90"
     ></div>
   </div>
 </template>
