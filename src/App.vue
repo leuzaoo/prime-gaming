@@ -13,8 +13,8 @@
     </p>
   </div>
 
-  <div class="overflow-auto w-full pb-5 px-3 bg-[#0B0418]">
-    <div class="flex w-32 gap-1">
+  <div class="overflow-auto w-full pb-5 px-3 bg-[#0B0418] flex xl:justify-center">
+    <div class="flex w-32 gap-1 xl:justify-center">
       <img
         class="rounded-lg"
         src="https://cdn.oneesports.gg/cdn-data/2022/09/LeagueofLegends_Worlds2022_Logo_Poster.jpg"
@@ -33,6 +33,16 @@
       <img
         class="rounded-lg"
         src="https://cdn.akamai.steamstatic.com/steam/apps/730/capsule_616x353.jpg?t=1641233427"
+        alt=""
+      />
+      <img
+        class="rounded-lg"
+        src="https://meups.com.br/wp-content/uploads/2020/01/Rainbow-Six-Siege-1.jpg"
+        alt=""
+      />
+      <img
+        class="rounded-lg"
+        src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_LeagueofLegends_RiotGames_S1_2560x1440-ee500721c06da3ec1e5535a88588c77f"
         alt=""
       />
     </div>
