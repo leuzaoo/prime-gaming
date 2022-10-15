@@ -13,7 +13,9 @@
     </p>
   </div>
 
-  <div class="overflow-auto w-full pb-5 px-3 bg-[#0B0418] flex xl:justify-center">
+  <div
+    class="overflow-auto w-full pb-5 px-3 bg-[#0B0418] flex xl:justify-center"
+  >
     <div class="flex w-32 gap-1 xl:justify-center">
       <img
         class="rounded-lg"
@@ -48,11 +50,13 @@
     </div>
   </div>
 
-  <div class="bg-[#0B0418]">
-    <ul class="flex text-xs justify-center gap-6 pt-3 text-white">
-      <li>Todos</li>
-      <li>Conteúdo no jogo</li>
-      <li>Jogos</li>
+  <div class="bg-[#0B0418] cursor-pointer">
+    <ul class="flex text-xs justify-center items-center gap-6 pt-3 text-white">
+      <li class="bg-neutral-600 py-2 px-3 rounded-2xl">Todos</li>
+      <li class="hover:bg-neutral-800 py-2 px-3 rounded-2xl">
+        Conteúdo no jogo
+      </li>
+      <li class="hover:bg-neutral-800 py-2 px-3 rounded-2xl">Jogos</li>
     </ul>
   </div>
 </template>
