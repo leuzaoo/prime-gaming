@@ -16,7 +16,9 @@
   <div
     class="overflow-auto w-full pb-5 px-3 bg-[#0B0418] flex md:justify-center xl:justify-center"
   >
-    <div class="flex w-32 md:w-24 md:justify-center gap-1 xl:justify-center">
+    <div
+      class="flex w-32 md:w-24 xl:w-44 md:justify-center gap-1 xl:justify-center"
+    >
       <img
         class="rounded-xl"
         src="https://cdn.oneesports.gg/cdn-data/2022/09/LeagueofLegends_Worlds2022_Logo_Poster.jpg"
