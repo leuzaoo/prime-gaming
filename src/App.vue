@@ -1,11 +1,11 @@
 <template>
   <main-header />
 
-  <image-cover src="https://i.redd.it/e2aiwmfjv0g51.png"> </image-cover>
+  <image-cover src="https://wallpapercave.com/wp/wp11326349.jpg"> </image-cover>
   <h3
     class="-mt-8 relative text-white font-bold justify-center flex text-lg tracking-wide font-semibold text-neutral-200"
   >
-    Pokemon GO
+    FIFA 2023
   </h3>
   <div class="bg-[#0B0418]">
     <p class="text-neutral-400 text-sm font-bold flex justify-center py-3">
@@ -58,6 +58,14 @@
       </li>
       <li class="hover:bg-neutral-800 py-2 px-3 rounded-2xl">Jogos</li>
     </ul>
+  </div>
+
+  <div class="bg-[#0B0418] flex justify-center py-3">
+    <input
+      type="text"
+      class="text-xs pl-2 w-[370px] h-[35px] rounded-4 text-left border border-white bg-[#0B0418]"
+      placeholder="Pesquise no Prime Gaming"
+    />
   </div>
 </template>
 
