@@ -3,7 +3,7 @@
 
   <image-cover src="https://wallpapercave.com/wp/wp11326349.jpg"> </image-cover>
   <h3
-    class="-mt-8 relative text-white font-bold justify-center flex text-lg tracking-wide font-semibold text-neutral-200"
+    class="md:hidden text-white font-bold text-3xl -mt-10 relative flex justify-center text-lg tracking-wide font-semibold text-neutral-200"
   >
     FIFA 2023
   </h3>
@@ -14,36 +14,36 @@
   </div>
 
   <div
-    class="overflow-auto w-full pb-5 px-3 bg-[#0B0418] flex xl:justify-center"
+    class="overflow-auto w-full pb-5 px-3 bg-[#0B0418] flex md:justify-center xl:justify-center"
   >
-    <div class="flex w-32 gap-1 xl:justify-center">
+    <div class="flex w-32 md:w-24 md:justify-center gap-1 xl:justify-center">
       <img
-        class="rounded-lg"
+        class="rounded-xl"
         src="https://cdn.oneesports.gg/cdn-data/2022/09/LeagueofLegends_Worlds2022_Logo_Poster.jpg"
         alt=""
       />
       <img
-        class="rounded-lg"
+        class="rounded-xl"
         src="https://assets.pokemon.com/assets//cms2-pt-br/img/watch-pokemon-tv/_tiles/broadcaster/season23-cartoon-network-169.png"
         alt=""
       />
       <img
-        class="rounded-lg"
+        class="rounded-xl"
         src="https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/capsule_616x353.jpg?t=1664321959"
         alt=""
       />
       <img
-        class="rounded-lg"
+        class="rounded-xl"
         src="https://cdn.akamai.steamstatic.com/steam/apps/730/capsule_616x353.jpg?t=1641233427"
         alt=""
       />
       <img
-        class="rounded-lg"
+        class="rounded-xl"
         src="https://meups.com.br/wp-content/uploads/2020/01/Rainbow-Six-Siege-1.jpg"
         alt=""
       />
       <img
-        class="rounded-lg"
+        class="rounded-xl"
         src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_LeagueofLegends_RiotGames_S1_2560x1440-ee500721c06da3ec1e5535a88588c77f"
         alt=""
       />

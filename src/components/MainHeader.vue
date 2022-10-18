@@ -1,37 +1,26 @@
 <template>
   <div
-    class="flex items-center bg-[#0B0418] text-white h-16 shadow-2xl z-10 relative"
+    class="h-14 bg-[#0B0418] text-white flex items-center justify-center gap-3 md:justify-between md:px-7"
   >
-    <ul class="flex justify-between gap-2 px-2 w-full md:px-20 items-center">
-      <li>
-        <p class="font-bold xl:text-2xl xl:pl-56">
-          prime <span class="font-normal">gaming</span>
-        </p>
-      </li>
-      <div class="flex pr-60 gap-3 items-center">
-        <p
-          class="border-white border p-1 rounded-sm text-sm hover:bg-[#423B50] cursor-pointer"
-        >
-          Fazer login
-        </p>
-        <li>
-          <p
-            class="bg-[#5FB7FF] px-2 py-1 rounded-sm text-sm text-black cursor-pointer hover:bg-cyan-500"
-          >
-            Experimente Amazon Prime
-          </p>
-        </li>
-        <li class="flex items-center gap-1 text-neutral-400">
-          <remix-icon icon="world" :size="20" />
+    <p class="font-bold tracking-wide">
+      prime <span class="font-normal">gaming</span>
+    </p>
+    <div class="flex items-center">
+      <p
+        class="text-sm bg-[#0284c7] py-1 px-2 rounded-sm text-black hover:bg-[#22d3ee] cursor-pointer"
+      >
+        Experimente a Amazon Prime
+      </p>
+      <div class="flex items-center ml-3 text-neutral-400">
+        <div class="flex items-center gap-1 mr-3 hidden md:contents">
+          <remix-icon icon="world" :size="16" />
           <p class="font-bold">PT</p>
-          <remix-icon icon="arrow-down-s" :size="20" />
-        </li>
-        <li class="flex items-center ml-3 text-neutral-400">
-          <remix-icon icon="user" :size="16" />
-          <remix-icon icon="arrow-down-s" :size="20" />
-        </li>
+          <remix-icon icon="arrow-down-s" :size="16" />
+        </div>
+        <remix-icon icon="user" :size="16" />
+        <remix-icon icon="arrow-down-s" :size="16" />
       </div>
-    </ul>
+    </div>
   </div>
 </template>
 
