@@ -60,10 +60,11 @@
     </ul>
   </div>
 
-  <div class="bg-[#0B0418] flex justify-center py-3">
+  <div class="bg-[#0B0418] flex justify-center items-center py-3 gap-3">
+    <remix-icon icon="lupa" class="text-white cursor-pointer" />
     <input
       type="text"
-      class="text-xs pl-2 w-[370px] h-[35px] rounded-4 text-left border border-white bg-[#0B0418]"
+      class="text-sm pl-2 w-[370px] h-[35px] rounded-4 text-left border border-white text-white bg-[#0B0418]"
       placeholder="Pesquise no Prime Gaming"
     />
   </div>
@@ -72,4 +73,5 @@
 <script lang="ts" setup>
 import MainHeader from "./components/MainHeader.vue";
 import ImageCover from "./components/ImageCover.vue";
+import RemixIcon from "./components/RemixIcon.vue";
 </script>
