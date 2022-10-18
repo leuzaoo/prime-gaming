@@ -14,10 +14,10 @@
   </div>
 
   <div
-    class="overflow-auto w-full pb-5 px-3 bg-[#0B0418] flex md:justify-center xl:justify-center"
+    class="overflow-auto w-full pb-3 px-3 bg-[#0B0418] flex md:justify-center xl:justify-center"
   >
     <div
-      class="flex w-32 md:w-24 xl:w-44 md:justify-center gap-1 xl:justify-center"
+      class="flex w-28 md:w-24 xl:w-44 md:justify-center gap-1 xl:justify-center cursor-grab"
     >
       <img
         class="rounded-xl"
@@ -52,23 +52,27 @@
     </div>
   </div>
 
-  <div class="bg-[#0B0418] cursor-pointer">
-    <ul class="flex text-xs justify-center items-center gap-6 pt-3 text-white">
-      <li class="bg-neutral-600 py-2 px-3 rounded-2xl">Todos</li>
-      <li class="hover:bg-neutral-800 py-2 px-3 rounded-2xl">
+  <div
+    class="bg-[#0B0418] text-white text-xs font-semibold gap-1 pl-5 md:pl-10 pt-3 cursor-pointer flex items-center"
+  >
+    <div class="md:flex md:text-base md:font-normal">
+      <p class="text-neutral-300 bg-[#3C3646] px-3 py-2 rounded-2xl">Todos</p>
+      <p class="text-neutral-300 hover:bg-[#464449] px-3 py-2 rounded-2xl">
         Conteúdo no jogo
-      </li>
-      <li class="hover:bg-neutral-800 py-2 px-3 rounded-2xl">Jogos</li>
-    </ul>
-  </div>
+      </p>
+      <p class="text-neutral-300 hover:bg-[#464449] px-3 py-2 rounded-2xl">
+        Jogos
+      </p>
+    </div>
 
-  <div class="bg-[#0B0418] flex justify-center items-center py-3 gap-3">
-    <remix-icon icon="lupa" class="text-white cursor-pointer" />
-    <input
-      type="text"
-      class="text-sm pl-2 w-[370px] h-[35px] rounded-4 text-left border border-white text-white bg-[#0B0418]"
-      placeholder="Pesquise no Prime Gaming"
-    />
+    <div class="bg-[#0B0418] flex items-center pl-5 py-3 gap-3">
+      <remix-icon icon="lupa" class="text-white cursor-pointer" />
+      <input
+        type="text"
+        class="text-xs md:text-base md:font-normal pl-5 md:pl-7 w-[320px] h-[35px] md:h-[45px] rounded-full text-left border border-white text-white bg-[#0B0418]"
+        placeholder="Pesquisar no Prime Gaming"
+      />
+    </div>
   </div>
 </template>
 
