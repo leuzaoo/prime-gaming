@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative max-h-40 md:max-h-80 xl:max-h-[575px] xl:max-h-96 overflow-hidden"
+    class="relative max-h-40 md:max-h-80 xl:max-h-[600px] xl:max-h-96 overflow-hidden"
   >
     <img class="object-cover w-full h-full" :src="src" :alt="alt" />
     <div
