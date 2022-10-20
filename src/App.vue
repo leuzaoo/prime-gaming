@@ -53,9 +53,9 @@
   </div>
 
   <div
-    class="bg-[#0B0418] text-white text-xs font-semibold gap-1 pl-5 md:pl-10 pt-3 cursor-pointer flex items-center"
+    class="md:flex items-center bg-[#0B0418] text-white text-xs font-semibold gap-1 pl-5 pt-5 md:pl-10 pt-3 cursor-pointer"
   >
-    <div class="md:flex md:text-base md:font-normal">
+    <div class="flex items-center md:flex md:text-base md:font-normal gap-2">
       <p class="text-neutral-300 bg-[#3C3646] px-3 py-2 rounded-2xl">Todos</p>
       <p class="text-neutral-300 hover:bg-[#464449] px-3 py-2 rounded-2xl">
         Conteúdo no jogo
@@ -65,7 +65,7 @@
       </p>
     </div>
 
-    <div class="bg-[#0B0418] flex items-center pl-5 py-3 gap-3">
+    <div class="bg-[#0B0418] flex items-center py-3 gap-3">
       <remix-icon icon="lupa" class="text-white cursor-pointer" />
       <input
         type="text"
