@@ -19,101 +19,24 @@
     <div
       class="flex w-28 md:w-24 xl:w-44 md:justify-center gap-1 xl:justify-center cursor-grab"
     >
-      <img
-        class="rounded-xl"
+      <games-banner
         src="https://cdn.oneesports.gg/cdn-data/2022/09/LeagueofLegends_Worlds2022_Logo_Poster.jpg"
-        alt=""
       />
-      <img
-        class="rounded-xl"
+      <games-banner
         src="https://assets.pokemon.com/assets//cms2-pt-br/img/watch-pokemon-tv/_tiles/broadcaster/season23-cartoon-network-169.png"
-        alt=""
       />
-      <img
-        class="rounded-xl"
+      <games-banner
         src="https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/capsule_616x353.jpg?t=1664321959"
-        alt=""
       />
-      <img
-        class="rounded-xl"
+      <games-banner
         src="https://cdn.akamai.steamstatic.com/steam/apps/730/capsule_616x353.jpg?t=1641233427"
-        alt=""
       />
-      <img
-        class="rounded-xl"
+      <games-banner
         src="https://meups.com.br/wp-content/uploads/2020/01/Rainbow-Six-Siege-1.jpg"
-        alt=""
       />
-      <img
-        class="rounded-xl"
+      <games-banner
         src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_LeagueofLegends_RiotGames_S1_2560x1440-ee500721c06da3ec1e5535a88588c77f"
-        alt=""
       />
-    </div>
-  </div>
-
-  <div
-    class="md:flex md:justify-between md:px-32 items-center bg-[#0B0418] text-white text-xs font-semibold gap-1 pl-5 pt-5 pt-3 cursor-pointer"
-  >
-    <div
-      class="flex items-center md:flex md:text-base md:font-normal xl:font-bold gap-2"
-    >
-      <p class="text-neutral-300 bg-[#3C3646] px-3 py-2 rounded-2xl">Todos</p>
-      <p class="text-neutral-300 hover:bg-[#464449] px-3 py-2 rounded-2xl">
-        Conteúdo no jogo
-      </p>
-      <p class="text-neutral-300 hover:bg-[#464449] px-3 py-2 rounded-2xl">
-        Jogos
-      </p>
-    </div>
-
-    <div class="bg-[#0B0418] flex items-center py-3 gap-3">
-      <remix-icon icon="lupa" class="text-white cursor-pointer" />
-      <input
-        type="text"
-        class="text-xs md:text-base md:font-normal pl-5 md:pl-7 w-[320px] h-[35px] md:h-[45px] rounded-full text-left border border-white text-white bg-[#0B0418]"
-        placeholder="Pesquisar no Prime Gaming"
-      />
-    </div>
-  </div>
-
-  <div class="bg-[#0B0418] xl:px-32">
-    <h3 class="text-white text-2xl">
-      Nossos favoritos, <span class="font-bold">grátis com o Prime</span>
-    </h3>
-    <div class="flex xl:pt-4">
-      <ul class="flex flex-row xl:justify-center xl:items-center xl:gap-3">
-        <li class="xl:min-w-[320px] xl:max-w-[320px]">
-          <img
-            src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_LeagueofLegends_RiotGames_S1_2560x1440-ee500721c06da3ec1e5535a88588c77f"
-            alt=""
-          />
-          <p class="text-neutral-300 bg-[#2F293A] py-2 pl-4 text-sm">
-            Termina em <span class="font-bold">34 dias</span>.
-          </p>
-        </li>
-
-        <li class="xl:min-w-[320px] xl:max-w-[320px]">
-          <img
-            src="https://cdn.akamai.steamstatic.com/steam/apps/730/capsule_616x353.jpg?t=1641233427"
-            alt=""
-          />
-          <p class="text-neutral-300 bg-[#2F293A] py-2 pl-4 text-sm">
-            Termina em <span class="font-bold">28 dias</span>.
-          </p>
-          <p class="pl-4 bg-[#1E182A] text-white xl:py-5">Counter-Strike Global Offensive</p>
-        </li>
-
-        <li class="xl:min-w-[320px] xl:max-w-[320px]">
-          <img
-            src="https://assets.pokemon.com/assets//cms2-pt-br/img/watch-pokemon-tv/_tiles/broadcaster/season23-cartoon-network-169.png"
-            alt=""
-          />
-          <p class="text-neutral-300 bg-[#2F293A] py-2 pl-4 text-sm">
-            Termina em <span class="font-bold">28 dias</span>.
-          </p>
-        </li>
-      </ul>
     </div>
   </div>
 </template>
@@ -121,5 +44,5 @@
 <script lang="ts" setup>
 import MainHeader from "./components/MainHeader.vue";
 import ImageCover from "./components/ImageCover.vue";
-import RemixIcon from "./components/RemixIcon.vue";
+import GamesBanner from "./components/GamesBanner.vue";
 </script>
