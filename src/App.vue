@@ -20,29 +20,38 @@
       class="flex w-28 md:w-24 xl:w-44 md:justify-center gap-1 xl:justify-center cursor-grab"
     >
       <games-banner
+        class="rounded"
         src="https://cdn.oneesports.gg/cdn-data/2022/09/LeagueofLegends_Worlds2022_Logo_Poster.jpg"
       />
       <games-banner
+        class="rounded"
         src="https://assets.pokemon.com/assets//cms2-pt-br/img/watch-pokemon-tv/_tiles/broadcaster/season23-cartoon-network-169.png"
       />
       <games-banner
+        class="rounded"
         src="https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/capsule_616x353.jpg?t=1664321959"
       />
       <games-banner
+        class="rounded"
         src="https://cdn.akamai.steamstatic.com/steam/apps/730/capsule_616x353.jpg?t=1641233427"
       />
       <games-banner
+        class="rounded"
         src="https://meups.com.br/wp-content/uploads/2020/01/Rainbow-Six-Siege-1.jpg"
       />
       <games-banner
+        class="rounded"
         src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_LeagueofLegends_RiotGames_S1_2560x1440-ee500721c06da3ec1e5535a88588c77f"
       />
     </div>
   </div>
+
+  <games-finder> </games-finder>
 </template>
 
 <script lang="ts" setup>
 import MainHeader from "./components/MainHeader.vue";
 import ImageCover from "./components/ImageCover.vue";
 import GamesBanner from "./components/GamesBanner.vue";
+import GamesFinder from "./components/GamesFinder.vue";
 </script>
