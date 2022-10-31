@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex items-center text-xs text-neutral-400 font-bold gap-3 bg-[#0B0418] pt-4 pl-5"
+    class="flex items-center text-xs text-neutral-400 font-bold gap-3 bg-[#0B0418] pt-4 pl-8"
   >
     <p class="bg-[#3C3646] px-3 py-2 rounded-full">Todos</p>
     <p
@@ -14,9 +14,10 @@
       Jogos
     </p>
   </div>
-  <div class="bg-[#0B0418] pt-3 pb-2 px-4 flex items-center">
+
+  <div class="bg-[#0B0418] pl-8 pt-3 pb-2 flex items-center">
     <input
-      class="rounded-full border pl-14 border-white bg-[#0B0418] text-xs h-9 w-[365px] pl-3 absolute"
+      class="rounded-full border pl-14 border-white bg-[#0B0418] text-xs h-9 w-10/12 pl-3 absolute"
       type="text"
       placeholder="Pesquisar no Prime Gaming"
     />
