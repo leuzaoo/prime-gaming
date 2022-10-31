@@ -46,7 +46,9 @@
     </div>
   </div>
 
-  <games-finder> </games-finder>
+  <games-finder />
+
+  <games-info />
 </template>
 
 <script lang="ts" setup>
@@ -54,4 +56,5 @@ import MainHeader from "./components/MainHeader.vue";
 import ImageCover from "./components/ImageCover.vue";
 import GamesBanner from "./components/GamesBanner.vue";
 import GamesFinder from "./components/GamesFinder.vue";
+import GamesInfo from "./components/GamesInfo.vue";
 </script>
