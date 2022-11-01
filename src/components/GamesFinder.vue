@@ -17,7 +17,7 @@
 
   <div class="bg-[#0B0418] pl-8 pt-3 pb-2 flex items-center">
     <input
-      class="rounded-full border pl-14 border-white bg-[#0B0418] text-xs h-9 w-10/12 pl-3 absolute"
+      class="rounded-full border pl-14 border-white bg-[#0B0418] text-xs h-9 w-10/12 absolute"
       type="text"
       placeholder="Pesquisar no Prime Gaming"
     />
