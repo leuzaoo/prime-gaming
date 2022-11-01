@@ -49,6 +49,8 @@
   <games-finder />
 
   <games-info />
+
+  <image-carousel />
 </template>
 
 <script lang="ts" setup>
@@ -57,4 +59,5 @@ import ImageCover from "./components/ImageCover.vue";
 import GamesBanner from "./components/GamesBanner.vue";
 import GamesFinder from "./components/GamesFinder.vue";
 import GamesInfo from "./components/GamesInfo.vue";
+import ImageCarousel from "./components/ImageCarousel.vue";
 </script>
