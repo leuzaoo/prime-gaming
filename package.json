@@ -11,8 +11,7 @@
   "dependencies": {
     "remixicon": "^2.5.0",
     "vue": "^3.2.37",
-    "vue-router": "^4.1.5",
-    "vue-slick-carousel": "^1.0.6"
+    "vue-router": "^4.1.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.1.0",
