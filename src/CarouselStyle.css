@@ -22,7 +22,7 @@ section .card .image {
 
 .card {
   position: relative;
-  background: #fff;
+  background: rgb(218, 226, 233);
   border-radius: 20px;
   margin: 20px 0;
   width: 280px;
@@ -31,7 +31,8 @@ section .card .image {
 .card::before {
   content: "";
   position: absolute;
-  height: 45%;
+  top: 0px;
+  height: 50%;
   width: 100%;
   background-color: blue;
   border-radius: 20px 20px 0 0;
@@ -42,14 +43,14 @@ section .card .image {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  padding: 20px;
   position: relative;
   z-index: 100;
 }
 
 .card .media-icons {
   position: absolute;
-  top: 15px;
+  top: 10px;
   left: 210px;
   display: flex;
   flex-direction: column;
@@ -85,4 +86,47 @@ section .card .image {
 
 .name-profession .profession {
   font-weight: 600;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.card .button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card .button .about-me {
+  background-color: blue;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all ease 0.3s;
+}
+
+.card .button .hire-me {
+  background-color: blue;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all ease 0.3s;
+}
+
+.card .button .about-me:hover {
+  background-color: rgb(211, 210, 205);
+  border: 1px solid rgb(167, 167, 167);
+}
+
+.card .button .hire-me:hover {
+  background-color: rgb(211, 210, 205);
+  border: 1px solid rgb(167, 167, 167);
 }

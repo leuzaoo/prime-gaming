@@ -22,8 +22,10 @@
               <span class="profession">Web Developer</span>
             </div>
 
-
-            
+            <div class="button gap-2">
+              <button class="about-me px-3 py-2">About Me</button>
+              <button class="hire-me px-3 py-2">Hire Me</button>
+            </div>
           </div>
         </div>
       </div>
